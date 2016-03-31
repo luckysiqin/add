@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var x: UITextField!
     @IBOutlet weak var y: UITextField!
-    @IBOutlet weak var z: UITextField!
     @IBAction func jisuan(sender: AnyObject) {
         var a:Double=0
         var b:Double=0
@@ -24,7 +23,7 @@ class ViewController: UIViewController {
             b=(y.text! as NSString).doubleValue
         }
         c=a+b
-        z.text="\(c)"
+        y.text="\(c)"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
