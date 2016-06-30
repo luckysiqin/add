@@ -24,7 +24,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4aW-Ku-LdV">
-                                <rect key="frame" x="17" y="378" width="46" height="30"/>
+                                <rect key="frame" x="16" y="378" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.91393606011265716" green="1" blue="0.87844596120311036" alpha="1" colorSpace="calibratedRGB"/>
@@ -134,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lhS-OF-C6r">
-                                <rect key="frame" x="96" y="504" width="46" height="30"/>
+                                <rect key="frame" x="17" y="504" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.91393606011265716" green="1" blue="0.87844596120311036" alpha="1" colorSpace="calibratedRGB"/>
@@ -144,7 +144,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aUj-nk-9t4">
-                                <rect key="frame" x="16" y="246" width="206" height="30"/>
+                                <rect key="frame" x="16" y="246" width="202" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.91393606011265716" green="1" blue="0.87844596120311036" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,15 +155,8 @@
                                     <action selector="Resetcurrent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="88W-Vu-NJ9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="这是个简单计算器" textAlignment="natural" minimumFontSize="21" id="dbx-Li-m8y">
-                                <rect key="frame" x="16" y="125" width="277" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VL1-6S-3mN">
-                                <rect key="frame" x="17" y="504" width="46" height="30"/>
+                                <rect key="frame" x="96" y="504" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.91393606011265716" green="1" blue="0.87844596120311036" alpha="1" colorSpace="calibratedRGB"/>
@@ -204,6 +197,13 @@
                                     <action selector="divisionsign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2gT-Ks-0vy"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="这是个简单计算器" textAlignment="natural" minimumFontSize="21" id="dbx-Li-m8y">
+                                <rect key="frame" x="16" y="135" width="277" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.8486350417327555" green="0.73291879137556171" blue="1" alpha="1" colorSpace="calibratedRGB"/>
